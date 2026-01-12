@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konto- und Datenlöschung - EchoQuest</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #00b4db 0%, #0083b0 100%);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+            color: #1a1a1a;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .eq-logo {
+            max-width: 200px;
+            width: 100%;
+            height: auto;
+            filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.25));
+            margin-bottom: 1.5rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #0083b0;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        h2 {
+            color: #00b4db;
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        strong {
+            color: #0083b0;
+        }
+
+        a {
+            color: #00b4db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact {
+            background: rgba(0, 180, 219, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .company-logo {
+            max-width: 100px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+            opacity: 0.9;
+        }
+
+        .info-box {
+            background: rgba(0, 131, 176, 0.05);
+            border-left: 4px solid #00b4db;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .eq-logo {
+                max-width: 150px;
+            }
+
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+
+            .container {
+                padding: 1.5rem 1rem;
+                border-radius: 15px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="eq_logo.png" alt="EchoQuest" class="eq-logo">
+        </div>
+        <h1>Konto- und Datenlöschung</h1>
+
+        <p>In der App <strong>EchoQuest</strong> werden Nutzerprofile ausschließlich lokal auf dem jeweiligen Gerät gespeichert. Es existieren keine serverseitigen Benutzerkonten.</p>
+
+        <h2>So löschen Nutzer ein Profil:</h2>
+        
+        <div class="info-box">
+            <p>Nutzer können ein Profil jederzeit direkt in der App löschen. Dabei werden alle dem Profil zugeordneten Daten (z. B. Profilname, Geburtsdatum, Spracheinstellungen und Fortschritt) vollständig vom Gerät entfernt.</p>
+        </div>
+
+        <p>Alternativ werden alle lokalen Profildaten gelöscht, wenn die App deinstalliert wird.</p>
+
+        <p><strong>Eine Löschanfrage per E-Mail ist nicht erforderlich, da keine serverseitigen Daten gespeichert werden.</strong></p>
+
+        <div class="contact">
+            <img src="company_logo.png" alt="Jetzt & Dahanna Technologies" class="company-logo">
+            <p>Kontakt: <a href="mailto:info@jetztunddahanna.com">info@jetztunddahanna.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
